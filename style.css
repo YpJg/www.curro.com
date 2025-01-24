@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body{
     padding:0px;
     margin:0px;
@@ -477,7 +477,6 @@ margin-left:290px
 .pic8-word{
     margin-left:450px
 }
-=======
 body{
     padding:0px;
     margin:0px;
@@ -913,56 +912,141 @@ margin-left:290px
   .aply a{
    height:28px;
    align-content: center;
+   width:80px
   }
 .drop .contact{
     margin-left:1180px
 }
 .drop:hover .content{
     margin-left:930px
-}
-.tags {
-    margin-top:13px
-}
-.pic-word{
-    margin-left:450px
-}
-.pic1-word{
-    margin-left:450px
-}
-.pic-word2{
-    margin-left:450px
-}
-.type{
-    margin-left:-310px
-}
-.pic2-word{
-    margin-left:450px
-}
-.pic3-word{
-    margin-left:450px
-}
-.pic4-word{
-    margin-left:450px
-}
-.pic5-word{
-    margin-left:450px
-}
-.pic6-word{
-    margin-left:450px
-}
-.pic7-word{
-    margin-left:450px
-}
-.pic8-word{
-    margin-left:450px
-}
 }
 @media (max-width:1024px){
+.wrapper{
+    margin-left:190px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.aply a{
+    padding:2px;
+    align-self: center;
+    width:65px;
+    margin-left:64px;
+    margin-top:-35px;
+    display: none;
+}
+.drop .contact{
+    margin-left:740px;
+    padding:9px;
+    font-size:13px;
+    width:85px;
+    margin-top:3px;
+    display: none;
+}
+.word-top{
+    margin-left:6px;
+    margin-top:3px;
+    border-bottom: 1px solid white;;
+ 
+}
+.type a{
+    margin-left:730px
+}
+.curro-word{
+    margin-left:20px
+}
+.side-left{
+    margin-left:70px;
+    font-weight: bold;
+}
+.find{
+    margin-left:-110px;
+}
+.nav{
+    margin-left: 550px;
+    font-weight: bold;
+}
+.EXTERNAL{
+    margin-left: 870px;
+}
+.my{
+    margin-left: -70px;
+}
+.cover{
+    margin-left:400px ;
+    margin-top:-7px;
+    display: none;
+}
+.find-a{
+    display: none;
+}
+.apply{
+    display: none;
+
+}
+.cont{
+    display: none;
+}
+.pic1-word{
+    margin-left:-1220px
+}
+.pic-word2{
+    margin-left:200px
+}
+}
+.tags {
+    margin-top:13px
+}
+.pic-word{
+    margin-left:450px
+}
+.pic1-word{
+    margin-left:450px
+}
+.pic-word2{
+    margin-left:450px
+}
+.type{
+    margin-left:-310px
+}
+.pic2-word{
+    margin-left:450px
+}
+.pic3-word{
+    margin-left:450px
+}
+.pic4-word{
+    margin-left:450px
+}
+.pic5-word{
+    margin-left:450px
+}
+.pic6-word{
+    margin-left:450px
+}
+.pic7-word{
+    margin-left:450px
+}
+.pic8-word{
+    margin-left:450px
+}
+.cont{
+    margin-top:350px;
+    position: relative;
+    width:95px
+}
+.apply{
+    margin-top:50px
+}
+.find-a{
+    margin-top:230px;
+    width:90px
+}
+}
+@media (min-width:1024px){
     .wrapper{
-        margin-left:500px;
+        margin-left:300px
     }
     .pic{
         margin-top:200px
     }
->>>>>>> 79a4c2f (first)
-}
+}}
