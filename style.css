@@ -477,6 +477,7 @@ margin-left:290px
 .pic8-word{
     margin-left:450px
 }
+}
 body{
     padding:0px;
     margin:0px;
@@ -912,7 +913,7 @@ margin-left:290px
   .aply a{
    height:28px;
    align-content: center;
-   width:80px
+   width:80px;
   }
 .drop .contact{
     margin-left:1180px
@@ -920,7 +921,7 @@ margin-left:290px
 .drop:hover .content{
     margin-left:930px
 }
-@media (max-width:1024px){
+@media (min-width:1024px){
 .wrapper{
     margin-left:190px;
     font-weight: bold;
@@ -1041,10 +1042,262 @@ margin-left:290px
     margin-top:230px;
     width:90px
 }
-}
-@media (min-width:1024px){
+}@media  (max-width:768px){
+   
     .wrapper{
+        margin-left:30px;
+        font-size: 12px;
+    }
+    .word-top{
+        display: none;
+    }
+    .pic{
+        margin-top:90px
+    }
+    .pic-word{
+        margin-top:260px;
+        margin-left:220px;
+    }
+    .pic-word2{
+        margin-top:180;
+        margin-left:220px
+    }
+    .type{
+        margin-top:-66px;
+        margin-left:-400px
+    }
+    .pic1{
+        margin-top:569px
+    }
+    .pic1-word{
+        margin-top:250px;
         margin-left:300px
+    }
+    .pic2-word{
+        margin-top:280px;
+        margin-left:200px
+    }
+    .pic20{
+        margin-top:1050px
+    }
+    .pic4-word{
+        margin-top:280px;
+        margin-left:300px
+    }
+    .pic3-word{
+        margin-top: 250px;
+        margin-left:320px
+    }
+    .pic30{
+        margin-top:1530px;
+       
+    }
+    .pic5-word{
+        margin-top:240px;
+        margin-left:240px
+    }
+    .pic6-word{
+        margin-top:270px;
+        margin-left:100px
+    }
+    .pic40{
+        margin-top:2010px
+    }
+    .pic7-word{
+        margin-top:240px;
+        margin-left:270px
+    }
+    .pic8-word{
+        margin-top:270px;
+        margin-left:150px
+    }
+    .bottom{
+        margin-top: 2490px;
+    }
+    .EXTERNAL{
+        display: none;
+
+    }
+    .apply{
+        display: none;
+    }
+    .cont{
+        display: none;
+    }
+    .my{
+        display: none;
     }
     
 }
+@media (max-width:1024px){
+    .pic{
+        margin-top:90px
+    }
+    .type{
+        margin-top:-70px
+    }
+    .pic-word{
+        margin-left:300px
+    }
+    .pic-word2{
+        margin-left: 300px;
+    }
+    .pic1{
+        margin-top:540px
+    }
+     .pic1-word{
+        margin-top: 250px;
+        margin-left:400px
+     }
+     .pic2-word{
+        margin-top:290px;
+        margin-left:320px
+     }
+     .pic20{
+        margin-top:990px
+     }
+     .pic3-word{
+        margin-top:250px;
+        margin-left:410px
+     }
+     .pic4-word{
+        margin-left:390px;
+        margin-top:290px
+     }
+     .pic30{
+        margin-top:1440px
+     }
+     .pic5-word{
+        margin-top: 250px;
+       margin-left:310px
+     }
+     .pic6-word{
+         margin-left:100px;
+         margin-top:290px
+     }
+     .pic40{
+        margin-top:1890px
+     }
+     .pic7-word{
+        margin-top:250px;
+        margin-left:370px
+     }
+     .pic8-word{
+        margin-top:290px;
+        margin-left:90px
+     }
+     .bottom{
+        margin-top:2340px
+     }
+}
+@media (max-width:1740px){
+    .wrapper{
+        margin-left: 330px;
+    }
+    .aply{
+        margin-left:-230px;
+        padding:7px;
+        margin-top:-4px;
+        height: 4%;
+    }
+    .pic{
+        margin-top:85px;
+        height: 100%;
+    }
+    .pic1{
+        margin-top:945px;
+        height: 100%;
+    }
+    .pic20{
+        margin-top:1800px;
+        height: 100%;
+    }
+    .pic30{
+        margin-top:2660px;
+        height: 100%;
+    }
+    .pic40{
+        margin-top:3520px;
+        height: 100%;
+    }
+    .bottom{
+        margin-top:4370px;
+        height: 45%;
+    }
+}
+@media (max-width:1816px){
+    .wrapper{
+        margin-left:300px
+    }
+    .aply{
+        margin-left:-200px;
+        margin-top:0px;
+    }
+    .pic{
+        margin-top:85px;
+        height: 58%;
+    }
+    .pic1{
+        height: 57%;
+        margin-top:650px
+    }
+    .pic20{
+        height: 57%;
+        margin-top:1200px
+    }
+    .pic30{
+        height:57%;
+        margin-top:1750px
+    }
+    .pic40{
+        height: 57%;
+        margin-top:2300px
+    } 
+    .bottom{
+        margin-top:2850px
+    }
+} @media  (max-width:1600px){
+        .pic1{
+            margin-top:580px
+        }
+        .pic20{
+            margin-top:1070px
+        }
+        .pic30{
+            margin-top:1560px
+        }
+        .pic40{
+            margin-top:2050px
+        }
+        .bottom{
+            margin-top:2540px
+        }
+    }
+    @media (max-width:1537px){
+
+        .aply{
+            margin-left:-290px;
+            margin-top:-10px
+        }
+        .contact{
+            display: none;
+        }
+
+    }
+    @media (max-width:1445px) {
+
+        .aply{
+            margin-left:-300px
+        }
+        
+    }@media (max-width:1575px){
+
+        .wrapper{
+            margin-left:200px
+        }
+        .contact{
+            position:absolute;
+            margin-left:-200px
+        }
+
+    }
